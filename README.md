@@ -3,6 +3,7 @@
 **"prototype_system.ipynb"**: kode program yang berisi **uji coba prompt** yang telah dibuat terhadap model LLM. LLM yang digunakan adalah **"Qwen/Qwen2.5-7B-Instruct-AWQ"** karena ini merupakan versi **terkuantisasi** dari "Qwen/Qwen2.5-7B-Instruct" yang dapat mengurangi kebutuhan VRAM tanpa mengorbankan akurasi secara signifikan. Selain itu, model ini memiliki kemampuan untuk **generate output terstruktur**, seperti JSON. Selain itu, prototype juga menyajikan proses OCR yang dalam rancangan sistem dijalankan sebelum penggunaan LLM. Pada prototype tersebut, contoh data yang digunakan sebagai input OCR adalah gambar dokumen KTP. 
 
 Contoh output dari hasil OCR:
+```
 PROVINSI DKI JAKARTA 
 JAKARTA TIMUR 
 NIK 
@@ -32,6 +33,7 @@ Berlaku Hingga
 JAKARTA TIMUR 
 01-01-2020 
 21-10-2021 VERIFIKASIE-WALLET
+```
 
 Contoh output dari hasil prompting terhadap LLM:
 ```json
