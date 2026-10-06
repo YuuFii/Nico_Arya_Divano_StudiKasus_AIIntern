@@ -1,0 +1,1 @@
+# Nico_Arya_Divano_StudiKasus_AIIntern
